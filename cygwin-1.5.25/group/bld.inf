@@ -16,5 +16,24 @@
 PRJ_PLATFORMS
 TOOLS TOOLS2
 
-// nothing to build
+#ifndef SBSV2
+
+// abld build using generated exports file
+
+PRJ_EXPORTS
+#include "exports.inf"
+
+#else
+
+// raptor build using an FLM
+
+PRJ_EXTENSIONS
+
+START EXTENSION utility.copydir
+	OPTION SOURCE_DIR  ../win32
+	OPTION DEST_DIR    tools/sbs/win32/cygwin
+	OPTION WHAT_TARGET WHATEXPORTS
+END
+
+#endif
 
