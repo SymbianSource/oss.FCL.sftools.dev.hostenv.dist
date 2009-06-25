@@ -5347,6 +5347,7 @@
 ../win32/bin/cksum.exe /tools/sbs/win32/cygwin/bin/cksum.exe
 ../win32/bin/chmod.exe /tools/sbs/win32/cygwin/bin/chmod.exe
 ../win32/bin/grep.exe /tools/sbs/win32/cygwin/bin/grep.exe
+../win32/bin/find.exe /tools/sbs/win32/cygwin/bin/find.exe
 ../win32/bin/install-info.exe /tools/sbs/win32/cygwin/bin/install-info.exe
 ../win32/bin/cygmenu-8.dll /tools/sbs/win32/cygwin/bin/cygmenu-8.dll
 ../win32/bin/sh.exe /tools/sbs/win32/cygwin/bin/sh.exe
